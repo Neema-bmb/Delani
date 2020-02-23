@@ -140,9 +140,7 @@ If you find any issues in the code feel free to [click here](https://neema-bmb.g
 
 ### Technologies Used
 I used:
-*HTML- write the content of page
-*Bootstrap & CSS- for styling
-*jQuery & Javascript- to make the page responsive
+HTML, Bootstrap, CSS, jQuery & Javascript.
 
 ### Contact me on: neemashiramba@gmail.com
 {I encourage anyone who has any contribution to make to this code to improve it do so. 
