@@ -81,4 +81,10 @@ $(document).ready(function() {
         $("#text8").fadeTo("slow",0);
         $("#photo8").fadeTo("slow",1);
       });
-     
+      //Business Logic
+      $("form").submit(function() {
+        var name= $("input#name").val();
+        alert("We've received your message "+name+". Thank you for contacting us");
+        event.preventDefault();
+      });
+  });
