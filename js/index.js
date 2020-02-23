@@ -59,4 +59,26 @@ $(document).ready(function() {
       },function() {
         $("#text5").fadeTo("slow",0);
         $("#photo5").fadeTo("slow",1);
-    
+    });
+    $("#col-6").hover(function() {
+      $("#text6").fadeTo("slow",1);
+      $("#photo6").fadeTo("slow",0.4);
+      },function() {
+        $("#text6").fadeTo("slow",0);
+        $("#photo6").fadeTo("slow",1);
+      });
+    $("#col-7").hover(function() {
+      $("#text7").fadeTo("slow",1);
+      $("#photo7").fadeTo("slow",0.4);
+      },function() {
+        $("#text7").fadeTo("slow",0);
+        $("#photo7").fadeTo("slow",1);
+      });
+    $("#col-8").hover(function() {
+      $("#text8").fadeTo("slow",1);
+      $("#photo8").fadeTo("slow",0.4);
+      },function() {
+        $("#text8").fadeTo("slow",0);
+        $("#photo8").fadeTo("slow",1);
+      });
+     
