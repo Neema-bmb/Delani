@@ -1,11 +1,13 @@
-# ANDIA STUDIOS
-### 19/2/2020
-#### By Neema Shiramba
-## Description
-## Behaviour Based Development
+# STUDIOS
+### By Neema Shiramba
+#### 20/2/2020
 
+## Description
+This is an app about Delani studios. It expounds on details about us and the services we offer, through this app we display a portfolio of our our past work and last but not list enable our clients contact us. 
+
+## Behaviour Based Development
 ### Home page
-I added the logo using the link method show below, then typed in the content using the appropriate sizes of text as shown.
+ Add the logo using the link method show below, then typed in the content using the appropriate sizes of text as shown.
 
 ```
   <div class="back">
@@ -16,10 +18,10 @@ I added the logo using the link method show below, then typed in the content usi
                     <img src="IP3-master/assets/mouse_click.png">
                 </div><br><br>
 ```
-i then added the background image using css.
+Then add the background image using css.
 
 ### About Us and Services
-This sections were simple to create and all that was needed was to place them into containers and style them using css.
+This sections are simple to create and all that was needed was to place them into containers and style them using css.
 
 ### Icons
 The icons were created to be able to toggle when clicked. To do this by 
@@ -98,17 +100,49 @@ then add the following Javascript to make it function as wanted, using the class
     });
 ```
 
+### Portfolio
+In the portfolio section they where eight different portfolios.first thing to do is place them in the the following classes;
+```
+<div class="container">
+                    <div class="row">
+```
+Then place each portfolio inside it's own column class so that we will be able to edit each portfolio individually.
 
-## Known Bugs
+```
+<div id="photo1">
+                                <img src="IP3-master/assets/portfolio/work4.jpg" class="img-responsive" width="100%">
+                            </div>
+                            <div id="text1" class="fade"><p>Black theme</p></div>
+                        </div>
+```
+To add the hover effect when the mouse is ontop of on each portfolio, we add the following javascript.
+
+```
+ $("#col-1").hover(function() {
+      $("#text1").fadeTo("slow",1);
+      $("#photo1").fadeTo("slow",0.4);
+      },function() {
+        $("#text1").fadeTo("slow",0);
+        $("#photo1").fadeTo("slow",1);
+      });
+```
+
+### The Footer
+The final part of the page is to name and the year it was published. 
+```
+ <div class="end">
+                <p>DELANI STUDIO</p>
+                <P>2020</P>
+            </div>
+```
+### Known Bugs
 If you find any issues in the code feel free to [click here](https://neema-bmb.github.io/Delani/)
 
 ### Technologies Used
 I used:
-*HTML- write the content of page
-*Bootstrap & CSS- for styling
-*jQuery & Javascript- to make the page responsive
+HTML, Bootstrap, CSS, jQuery & Javascript.
 
-## Contact me on: neemashiramba@gmail.com
+### Contact me on: neemashiramba@gmail.com
 {I encourage anyone who has any contribution to make to this code to improve it do so. 
 Live link:}
 
