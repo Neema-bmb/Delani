@@ -143,8 +143,8 @@ I used:
 HTML, Bootstrap, CSS, jQuery & Javascript.
 
 ### Contact me on: neemashiramba@gmail.com
-{I encourage anyone who has any contribution to make to this code to improve it do so. 
-Live link:}
+I encourage anyone who has any contribution to make to this code to improve it do so. 
+Live link:https://neema-bmb.github.io/Delani/
 
 
 ### License
