@@ -84,7 +84,7 @@ $(document).ready(function() {
       //Business Logic
       $("form").submit(function() {
         var name= $("input#name").val();
-        alert("We've received your message "+name+". Thank you for contacting us");
+        alert(name+". Thank you for contacting us"+ "please check your email");
         event.preventDefault();
       });
   });
